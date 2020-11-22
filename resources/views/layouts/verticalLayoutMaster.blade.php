@@ -9,7 +9,7 @@
   <!-- END: Header-->
 
   <!-- BEGIN: SideNav-->
-  @include('panels.sidebar')
+  <!-- @include('panels.sidebar') -->
   <!-- END: SideNav-->
 
   <!-- BEGIN: Page Main-->
@@ -51,13 +51,7 @@
   <!-- END: Page Main-->
 
 
-  @if($configData['isCustomizer'] === true)
-  <!-- Theme Customizer -->
-  @include('pages.partials.customizer')
-  <!--/ Theme Customizer -->
-  {{-- buy now button --}}
-  @include('pages.partials.buy-now')
-  @endif
+
 
 
   {{-- footer  --}}

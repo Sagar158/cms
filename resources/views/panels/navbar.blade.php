@@ -2,19 +2,16 @@
   <nav
     class="{{$configData['navbarMainClass']}} @if($configData['isNavbarDark']=== true) {{'navbar-dark'}} @elseif($configData['isNavbarDark']=== false) {{'navbar-light'}} @elseif(!empty($configData['navbarBgColor'])) {{$configData['navbarBgColor']}} @else {{$configData['navbarMainColor']}} @endif">
     <div class="nav-wrapper">
-      <div class="header-search-wrapper hide-on-med-and-down">
-        <i class="material-icons">search</i>
-        <input class="header-search-input z-depth-2" type="text" name="Search" placeholder="Explore Materialize"
-          data-search="template-list">
-        <ul class="search-list collection display-none"></ul>
-      </div>
+    <ul class="navbar-list left">
+      <img src="{{asset('images/logo/logo.png')}}" style="height: 60px;" alt="">
+    </ul>
+    <ul class="navbar-list custom-bar">
+      <li class="navbar-link">DASHBOARD</li>
+      <li class="navbar-link">MAIL</li>
+      <li class="navbar-link">CREDIT PROFILE</li>
+      <li class="navbar-link">SETTINGS</li>
+</ul>
       <ul class="navbar-list right">
-        <li class="dropdown-language">
-          <a class="waves-effect waves-block waves-light translation-button" href="#"
-            data-target="translation-dropdown">
-            <span class="flag-icon flag-icon-gb"></span>
-          </a>
-        </li>
         <li class="hide-on-med-and-down">
           <a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);">
             <i class="material-icons">settings_overscan</i>
@@ -37,11 +34,6 @@
             <span class="avatar-status avatar-online">
               <img src="{{asset('images/avatar/avatar-7.png')}}" alt="avatar"><i></i>
             </span>
-          </a>
-        </li>
-        <li>
-          <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="slide-out-right">
-            <i class="material-icons">format_indent_increase</i>
           </a>
         </li>
       </ul>

@@ -42,13 +42,7 @@
   <!-- END: Page Main-->
 
 
-  @if($configData['isCustomizer'] === true && isset($configData['isCustomizer']))
-    <!-- Theme Customizer -->
-    @include('pages.partials.customizer')
-    <!--/ Theme Customizer -->
-    {{-- buy now button section --}}
-    @include('pages.partials.buy-now')
-  @endif
+
 
 
 

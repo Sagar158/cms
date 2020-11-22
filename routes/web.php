@@ -12,10 +12,7 @@ use App\Http\Controllers\LanguageController;
  */
 Auth::routes();
     // Dashboard Route
-Route::get('/', 'DashboardController@dashboardModern');
-Route::get('/modern', 'DashboardController@dashboardModern');
-Route::get('/ecommerce', 'DashboardController@dashboardEcommerce');
-Route::get('/analytics', 'DashboardController@dashboardAnalytics');
+Route::get('/', 'DashboardController@dashboardEcommerce');
 
 // Application Route
 Route::get('/app-email', 'ApplicationController@emailApp');
