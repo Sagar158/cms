@@ -1,2 +1,0 @@
-# cms
-Credit Management System
