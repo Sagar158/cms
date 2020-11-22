@@ -285,11 +285,11 @@
 }
 
 .pink.accent-2 {
-  background-color: #ff4081 !important;
+  background-color: #08408a !important;
 }
 
 .pink-text.text-accent-2 {
-  color: #ff4081 !important;
+  color: #08408a !important;
 }
 
 .pink.accent-3 {
@@ -3212,7 +3212,7 @@ th {
 }
 
 .collection .collection-item.active {
-  background-color: #ff4081;
+  background-color: #08408a;
   color: white;
 }
 
@@ -3223,7 +3223,7 @@ th {
 .collection a.collection-item {
   display: block;
   transition: 0.25s;
-  color: #ff4081;
+  color: #08408a;
 }
 
 .collection a.collection-item:not(.active):hover {
@@ -3246,7 +3246,7 @@ th {
 
 .secondary-content {
   float: right;
-  color: #ff4081;
+  color: #08408a;
 }
 
 .collapsible .collection {
@@ -3287,12 +3287,12 @@ th {
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #ff4081;
+  background-color: #08408a;
   transition: width 0.3s linear;
 }
 
 .progress .indeterminate {
-  background-color: #ff4081;
+  background-color: #08408a;
 }
 
 .progress .indeterminate:before {
@@ -3465,7 +3465,7 @@ span.badge.new {
   font-weight: 300;
   font-size: 0.8rem;
   color: #fff;
-  background-color: #ff4081;
+  background-color: #08408a;
   border-radius: 2px;
 }
 
@@ -5408,7 +5408,7 @@ small {
 .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #ff4081;
+  background-color: #08408a;
   text-align: center;
   letter-spacing: 0.5px;
   transition: background-color 0.2s ease-out;
@@ -5431,7 +5431,7 @@ small {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #ff4081;
+  background-color: #08408a;
   border-radius: 50%;
   transition: background-color 0.3s;
   cursor: pointer;
@@ -5439,7 +5439,7 @@ small {
 }
 
 .btn-floating:hover {
-  background-color: #ff4081;
+  background-color: #08408a;
 }
 
 .btn-floating:before {
@@ -5629,7 +5629,7 @@ button.btn-floating {
   z-index: -1;
   width: 40px;
   height: 40px;
-  background-color: #ff4081;
+  background-color: #08408a;
   border-radius: 50%;
   transform: scale(0);
 }
@@ -5728,7 +5728,7 @@ button.btn-floating {
 .dropdown-content li > a,
 .dropdown-content li > span {
   font-size: 16px;
-  color: #ff4081;
+  color: #08408a;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -6346,8 +6346,8 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #ff4081;
-  box-shadow: 0 1px 0 0 #ff4081;
+  border-bottom: 1px solid #08408a;
+  box-shadow: 0 1px 0 0 #08408a;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -6363,7 +6363,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #ff4081;
+  color: #08408a;
 }
 
 input:not([type]):focus.valid ~ label,
@@ -6679,7 +6679,7 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field .prefix.active {
-  color: #ff4081;
+  color: #08408a;
 }
 
 .input-field .prefix ~ input,
@@ -6874,12 +6874,12 @@ textarea.materialize-textarea {
 [type=radio]:checked + span:after,
 [type=radio].with-gap:checked + span:before,
 [type=radio].with-gap:checked + span:after {
-  border: 2px solid #ff4081;
+  border: 2px solid #08408a;
 }
 
 [type=radio]:checked + span:after,
 [type=radio].with-gap:checked + span:after {
-  background-color: #ff4081;
+  background-color: #08408a;
 }
 
 [type=radio]:checked + span:after {
@@ -7000,8 +7000,8 @@ textarea.materialize-textarea {
   height: 22px;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-right: 2px solid #ff4081;
-  border-bottom: 2px solid #ff4081;
+  border-right: 2px solid #08408a;
+  border-bottom: 2px solid #08408a;
   transform: rotate(40deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -7022,7 +7022,7 @@ textarea.materialize-textarea {
   height: 22px;
   border-top: none;
   border-left: none;
-  border-right: 2px solid #ff4081;
+  border-right: 2px solid #08408a;
   border-bottom: none;
   transform: rotate(90deg);
   -webkit-backface-visibility: hidden;
@@ -7085,8 +7085,8 @@ textarea.materialize-textarea {
   top: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid #ff4081;
-  background-color: #ff4081;
+  border: 2px solid #08408a;
+  background-color: #08408a;
   z-index: 0;
 }
 
@@ -7098,8 +7098,8 @@ textarea.materialize-textarea {
 
 [type=checkbox].filled-in.tabbed:checked:focus + span:not(.lever):after {
   border-radius: 2px;
-  background-color: #ff4081;
-  border-color: #ff4081;
+  background-color: #08408a;
+  border-color: #08408a;
 }
 
 [type=checkbox].filled-in:disabled:not(:checked) + span:not(.lever):before {
@@ -7153,7 +7153,7 @@ textarea.materialize-textarea {
 }
 
 .switch label input[type=checkbox]:checked + .lever:after {
-  background-color: #ff4081;
+  background-color: #08408a;
 }
 
 .switch label .lever {
@@ -7270,7 +7270,7 @@ select {
 }
 
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #ff4081;
+  border-bottom: 1px solid #08408a;
 }
 
 .select-wrapper .caret {
@@ -7447,7 +7447,7 @@ input[type=range] + .thumb {
   height: 0;
   width: 0;
   border-radius: 50%;
-  background-color: #ff4081;
+  background-color: #08408a;
   margin-left: 7px;
   transform-origin: 50% 50%;
   transform: rotate(-45deg);
@@ -7457,7 +7457,7 @@ input[type=range] + .thumb .value {
   display: block;
   width: 30px;
   text-align: center;
-  color: #ff4081;
+  color: #08408a;
   font-size: 0;
   transform: rotate(45deg);
 }
@@ -7488,11 +7488,11 @@ input[type=range]::-webkit-slider-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #ff4081;
+  background: #08408a;
   -webkit-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
   -webkit-appearance: none;
-  background-color: #ff4081;
+  background-color: #08408a;
   transform-origin: 50% 50%;
   margin: -5px 0 0 0;
 }
@@ -7522,7 +7522,7 @@ input[type=range]::-moz-range-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #ff4081;
+  background: #08408a;
   -moz-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
   margin-top: -5px;
@@ -7559,7 +7559,7 @@ input[type=range]::-ms-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #ff4081;
+  background: #08408a;
   -ms-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
@@ -7689,7 +7689,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li > a.btn-floating:hover {
-  background-color: #ff4081;
+  background-color: #08408a;
 }
 
 .sidenav li > a > i,
@@ -7910,7 +7910,7 @@ input[type=range]::-ms-thumb {
   width: 100%;
   height: 100%;
   opacity: 0;
-  border-color: #ff4081;
+  border-color: #08408a;
 }
 
 .spinner-blue,
@@ -8794,7 +8794,7 @@ input[type=range]::-ms-thumb {
 
 .datepicker-date-display {
   flex: 1 auto;
-  background-color: #ff4081;
+  background-color: #08408a;
   color: #fff;
   padding: 20px 22px;
   font-weight: 500;
@@ -8850,11 +8850,11 @@ input[type=range]::-ms-thumb {
 }
 
 .datepicker-table td.is-today {
-  color: #ff4081;
+  color: #08408a;
 }
 
 .datepicker-table td.is-selected {
-  background-color: #ff4081;
+  background-color: #08408a;
   color: #fff;
 }
 
@@ -8894,7 +8894,7 @@ input[type=range]::-ms-thumb {
 .datepicker-clear,
 .datepicker-today,
 .datepicker-done {
-  color: #ff4081;
+  color: #08408a;
   padding: 0 1rem;
 }
 
@@ -8949,7 +8949,7 @@ input[type=range]::-ms-thumb {
 
 .timepicker-digital-display {
   flex: 1 auto;
-  background-color: #ff4081;
+  background-color: #08408a;
   padding: 10px;
   font-weight: 300;
 }
@@ -9062,7 +9062,7 @@ input[type=range]::-ms-thumb {
 }
 
 .timepicker-canvas line {
-  stroke: #ff4081;
+  stroke: #08408a;
   stroke-width: 4;
   stroke-linecap: round;
 }
@@ -9073,12 +9073,12 @@ input[type=range]::-ms-thumb {
 
 .timepicker-canvas-bearing {
   stroke: none;
-  fill: #ff4081;
+  fill: #08408a;
 }
 
 .timepicker-canvas-bg {
   stroke: none;
-  fill: #ff4081;
+  fill: #08408a;
 }
 
 /* Footer */
@@ -9095,7 +9095,7 @@ input[type=range]::-ms-thumb {
 }
 
 .timepicker-close {
-  color: #ff4081;
+  color: #08408a;
 }
 
 .timepicker-clear,

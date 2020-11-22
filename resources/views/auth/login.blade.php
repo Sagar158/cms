@@ -59,13 +59,13 @@
       <div class="row">
         <div class="input-field col s12">
           <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12">
-            Logina
+            Login
           </button>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6 m6 l6">
-          <p class="margin medium-small"><a href="{{ route('register') }}">Register Now!</a></p>
+        
         </div>
         <div class="input-field col s6 m6 l6">
           <p class="margin right-align medium-small">
