@@ -12,6 +12,8 @@ use App\Http\Controllers\LanguageController;
  */
 Auth::routes();
     // Dashboard Route
+Route::get('logout-user', ['as' => 'logout.user', 'uses' => 'Auth\LoginController@logout']);
+Route::group(['middleware' => ['auth']], function () {
 Route::get('/', 'DashboardController@dashboardEcommerce');
 
 // Application Route
@@ -147,5 +149,5 @@ Route::get('/charts-sparklines', 'ChartController@sparklines');
 // locale route
 Route::get('lang/{locale}',[LanguageController::class, 'swap']);
 
-
+ });
 

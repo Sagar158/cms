@@ -6,10 +6,10 @@
       <img src="{{asset('images/logo/logo.png')}}" style="height: 60px;" alt="">
     </ul>
     <ul class="navbar-list custom-bar">
-      <li class="navbar-link">DASHBOARD</li>
-      <li class="navbar-link">MAIL</li>
-      <li class="navbar-link">CREDIT PROFILE</li>
-      <li class="navbar-link">SETTINGS</li>
+      <li class="navbar-link"><a class="list-links" href="#">DASHBOARD</a></li>
+      <li class="navbar-link"><a class="list-links" href="#">MAIL</a></li>
+      <li class="navbar-link"><a class="list-links" href="#">CREDIT PROFILE</a></li>
+      <li class="navbar-link"><a class="list-links" href="#">SETTINGS</a></li>
 </ul>
       <ul class="navbar-list right">
         <li class="hide-on-med-and-down">
@@ -134,7 +134,7 @@
           </a>
         </li>
         <li>
-          <a class="grey-text text-darken-1" href="{{asset('user-login')}}">
+          <a class="grey-text text-darken-1" href="{{route('logout.user')}}">
             <i class="material-icons">keyboard_tab</i>
             Logout
           </a>
