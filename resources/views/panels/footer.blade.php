@@ -7,7 +7,7 @@
           target="_blank">Powered by DEKAMCO</a>
       </span>
       <span class="right hide-on-small-only" style="color: white;font-weight: bold;">
-        © 2020 Clean Credit Crew | Version 1.0.0 | <a href="https://dekam.co/cms/">Documentation | Change Log</a> 
+        © 2020 Clean Credit Crew | Version 1.0.0</a> 
       </span>
     </div>
   </div>
