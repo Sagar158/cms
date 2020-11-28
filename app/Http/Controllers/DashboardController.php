@@ -10,7 +10,7 @@ class DashboardController extends Controller
     }
 
     public function dashboardEcommerce()
-    {
+    { 
         // navbar large
         $pageConfigs = ['navbarLarge' => false];
 

@@ -130,6 +130,8 @@ Route::get('/table-basic', 'BasicTableController@tableBasic');
 // Data Table Route
 Route::get('/table-data-table', 'DataTableController@dataTable');
 
+Route::post('users/add', ['as' => 'user.add', 'uses' => 'UserController@store']);
+
 // Form Route
 Route::get('/form-elements', 'FormController@formElement');
 Route::get('/form-select2', 'FormController@formSelect2');

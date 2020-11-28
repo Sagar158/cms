@@ -13,7 +13,7 @@ class PostsTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Super Admin',
-            'email' => 'sharaelariggens@cms.com',
+            'email' => 'info@cleancreditcrew.com',
             'email_verified_at' => now(),
             'password' => Hash::make('KJoy*&(yuIuIGiuIU'),
             'created_at' => now(),
