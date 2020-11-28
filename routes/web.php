@@ -151,3 +151,26 @@ Route::get('lang/{locale}',[LanguageController::class, 'swap']);
 
  });
 
+
+ //mail modules route
+
+ //inbox
+ Route::get('message/inbox',   'Messages\InboxController@index');
+ Route::delete('/deleteAll',   'Messages\InboxController@deleteALl');
+ 
+ 
+ //sent mail
+ Route::get('message/sentMessage','Messages\SentMessageController@index');
+ Route::post('/sendMessage',   'Messages\InboxController@insert');
+ Route::delete('/deleteSent',   'Messages\SentMessageController@DeleteSent');
+
+ //trash
+ Route::get('message/trash',     'Messages\TrashController@trash');
+ Route::delete('/deleteTrash',   'Messages\TrashController@deleteTrash');
+ //import star
+//star
+ Route::get('message/Star','Messages\StarController@index');
+ Route::delete('message/Star',   'Message\StarController@deleteStar');
+ Route::resource('/updateStar','Message\StarController@UpdateStar');
+ //important
+Route::get('message/important','Messages\ImportantController@index');
