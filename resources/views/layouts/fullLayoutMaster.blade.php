@@ -7,15 +7,12 @@
 $configData = Helper::applClasses();
 @endphp
 <!--
-Template Name: Materialize - Material Design Admin Template
-Author: PixInvent
-Website: http://www.pixinvent.com/
-Contact: hello@pixinvent.com
-Follow: www.twitter.com/pixinvents
-Like: www.facebook.com/pixinvents
-Purchase: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
-Renew Support: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+Application Name: CMS - Credit Management System
+Author: DEKAMCO
+Website: http://www.dekam.co/
+Contact: info@dekam.co
+Follow: https://www.instagram.com/dekamco/
+Like: https://www.facebook.com/dekamco/
 
 -->
 <html class="loading"
