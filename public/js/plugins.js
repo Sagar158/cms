@@ -96,7 +96,7 @@
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 /*================================================================================
-  Item Name: Materialize - Material Design Admin Template
+  Item Name: CMS - Clean Credit Crew
   Version: 5.0
   Author: PIXINVENT
   Author URL: https://themeforest.net/user/pixinvent/portfolio

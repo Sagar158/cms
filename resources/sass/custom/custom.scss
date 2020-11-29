@@ -1,5 +1,5 @@
 /*================================================================================
-	Item Name: Materialize - Material Design Admin Template
+	Item Name: CMS - Clean Credit Crew
 	Version: 5.0
 	Author: PIXINVENT
 	Author URL: https://themeforest.net/user/pixinvent/portfolio

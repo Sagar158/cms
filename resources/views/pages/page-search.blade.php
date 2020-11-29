@@ -40,11 +40,11 @@
               <div class="row">
                 <div class="col l8 m12 mb-5">
                   <div class="result">
-                    <h6><a href="#">Materialize - Material Design Admin Template by PIXINVENT</a></h6>
+                    <h6><a href="#">CMS - Clean Credit Crew by PIXINVENT</a></h6>
                     <p class="teal-text lighten-2">
                       https://themeforest.net/item/materialize-material-design-admin-template</p>
                     <p>Rating: 5 star - 128 reviews - US $24.00 In stak</p>
-                    <p>Mar 15, 2018 - Buy Materialize - Material Design Admin Template by PIXINVENT on ThemeForest.
+                    <p>Mar 15, 2018 - Buy CMS - Clean Credit Crew by PIXINVENT on ThemeForest.
                       Materialize is a Material Design Admin Template</p>
                   </div>
                   <div class="row mt-3">
@@ -107,7 +107,7 @@
                     </div>
                   </div>
                   <div class="result mt-5">
-                    <h6><a href="#">Materialize - Material Design Admin Template - Pixinvent</a></h6>
+                    <h6><a href="#">CMS - Clean Credit Crew - Pixinvent</a></h6>
                     <p class="teal-text lighten-2">
                       https://themeforest.net/item/materialize-material-design-admin-template</p>
                     <p>Materialize. #1 Selling & Most Popular Material Design Admin Template of All Time. Join The
@@ -153,7 +153,7 @@
                   <p class="mt-2"><b class="blue-grey-text text-darken-4">Files Included:</b> HTML Files, CSS Files</p>
                   <p class="mt-2"><b class="blue-grey-text text-darken-4">Layout:</b> Responsive</p>
                   <p class="mt-2"><b class="blue-grey-text text-darken-4">Created:</b> 20 May 15</p>
-                  <p class="mt-2">Materialize - Material Design Admin Template by PIXINVENT</p>
+                  <p class="mt-2">CMS - Clean Credit Crew by PIXINVENT</p>
                   <p class="mt-5"><a href="#">Themeforest - $24</a></p>
                 </div>
               </div>
