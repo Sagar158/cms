@@ -13,9 +13,11 @@ class PostsTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Super Admin',
-            'email' => 'sharaelariggens@cms.com',
+            'email' => 'khawar@hwryk.com',
+            'username' => 'khawar@hwryk.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('KJoy*&(yuIuIGiuIU'),
+            'password' => Hash::make('admin'),
+            'status' => 1,
             'created_at' => now(),
             'updated_at' => now()
         ]);

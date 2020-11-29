@@ -9,11 +9,21 @@
 .materialize-red-text {
   color: #e51c23 !important;
 }
+.list-links{
+  color: white !important;
+}
+
+.custom-bar{
+  margin-left: 270px;
+}
 
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
-
+.navbar-link {
+  margin-left: 40px;
+  font-weight: bolder !important;
+}
 .materialize-red-text.text-lighten-5 {
   color: #fdeaeb !important;
 }
@@ -6966,7 +6976,7 @@ span.badge.pill {
 }
 
 .navbar .navbar-light {
-  background: #fff;
+  background: #2178a7;;
 }
 
 .navbar .navbar-light ul a {
@@ -7004,7 +7014,7 @@ span.badge.pill {
 }
 
 .navbar .navbar-dark {
-  background: #37474f;
+  background: #2178a7 !important;
 }
 
 .navbar .navbar-dark ul a {
@@ -9407,7 +9417,7 @@ tr.group:hover {
 }
 
 .footer-dark {
-  background: #37474f;
+  background: #2178a7 !important;
 }
 
 .footer-dark .footer-copyright {

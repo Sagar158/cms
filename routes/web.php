@@ -54,9 +54,22 @@ Route::get('/media-gallery-page', 'MediaController@mediaGallery');
 Route::get('/media-hover-effects', 'MediaController@hoverEffect');
 
 // User Route
-Route::get('/page-users-list', 'UserController@usersList');
-Route::get('/page-users-view', 'UserController@usersView');
-Route::get('/page-users-edit', 'UserController@usersEdit');
+Route::get('/users-list', 'UserController@usersList');
+Route::get('/users-view', 'UserController@usersView');
+Route::get('/users/edit/{id}', 'UserController@usersEdit');
+Route::get('/user-add', 'UserController@user_form');
+Route::post('/user/add', 'UserController@user_add');
+
+Route::get('/roles-list', 'RolesPermissionController@roles_list');
+Route::get('/roles-add', 'RolesPermissionController@role_form');
+Route::get('/permissions-add', 'RolesPermissionController@permission_form');
+Route::post('/add-role', 'RolesPermissionController@role_add');
+Route::post('/add-permissions', 'RolesPermissionController@permission_add');
+Route::get('/roles/edit/{id}', 'RolesPermissionController@role_edit');
+Route::get('/permissions/edit/{id}', 'RolesPermissionController@permission_edit');
+Route::post('/permissions/update/{id}', 'RolesPermissionController@permission_add');
+Route::post('/roles/update/{id}', 'RolesPermissionController@role_add');
+Route::get('/permissions-list', 'RolesPermissionController@permissions_list');
 
 // Authentication Route
 Route::get('/user-login', 'AuthenticationController@userLogin');

@@ -2,33 +2,45 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+use App\Role;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+
 class UserController extends Controller
 {
     public function usersList()
     {
-        $breadcrumbs = [
-            ['link' => "modern", 'name' => "Home"], ['link' => "javascript:void(0)", 'name' => "User"], ['name' => "Users List"]];
-        //Pageheader set true for breadcrumbs
-        $pageConfigs = ['pageHeader' => true, 'isFabButton' => true];
-
-        return view('pages.page-users-list', ['pageConfigs' => $pageConfigs], ['breadcrumbs' => $breadcrumbs]);
+        $data['users'] = User::all();
+        return view('admin.users.user_list', $data);
     }
-    public function usersView()
+    public function user_form()
     {
-        $breadcrumbs = [
-            ['link' => "modern", 'name' => "Home"], ['link' => "javascript:void(0)", 'name' => "User"], ['name' => "Users View"]];
-        //Pageheader set true for breadcrumbs
-        $pageConfigs = ['pageHeader' => true, 'isFabButton' => true];
-
-        return view('pages.page-users-view', ['pageConfigs' => $pageConfigs], ['breadcrumbs' => $breadcrumbs]);
+        $data['roles'] = Role::all();
+        return view('admin.users.user_form', $data);
     }
-    public function usersEdit()
+    public function user_add(Request $request)
+    { 
+        $role = Role::where('slug', $request->role)->first();
+
+        $user = new User();
+		$user->name = $request->name;
+        $user->email = $request->email;
+        $user->username = $request->username;
+        $user->password = bcrypt($request->password);
+        $user->status = $request->status;
+        $user->save();
+        if(isset($role) && !empty($role))
+        {
+            $user->roles()->attach($role);
+        }
+        $data['users'] = User::all();
+        return view('admin.users.user_list', $data);
+    }
+    public function usersEdit($id)
     {
-        $breadcrumbs = [
-            ['link' => "modern", 'name' => "Home"], ['link' => "javascript:void(0)", 'name' => "User"], ['name' => "Users Edit"]];
-        //Pageheader set true for breadcrumbs
-        $pageConfigs = ['pageHeader' => true, 'isFabButton' => true];
-        return view('pages.page-users-edit', ['pageConfigs' => $pageConfigs], ['breadcrumbs' => $breadcrumbs]);
+        $data['user_data'] = User::find($id);
+        return view('admin.users.user_form', $data);
     }
 
 }
