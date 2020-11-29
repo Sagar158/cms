@@ -3,10 +3,10 @@
     class="{{$configData['navbarMainClass']}} @if($configData['isNavbarDark']=== true) {{'navbar-dark'}} @elseif($configData['isNavbarDark']=== false) {{'navbar-light'}} @elseif(!empty($configData['navbarBgColor'])) {{$configData['navbarBgColor']}} @else {{$configData['navbarMainColor']}} @endif">
     <div class="nav-wrapper">
     <ul class="navbar-list left">
-      <img src="{{asset('images/logo/logo.png')}}" style="height: 60px;" alt="">
+      <img src="{{asset('images/logo/logo.png')}}" style="height: 60px;" alt="Clean Credit Crew's Credit Management System">
     </ul>
     <ul class="navbar-list custom-bar">
-      <li class="navbar-link"><a class="list-links" href="{{ url('/') }}">DASHBOARD</a></li>
+      <li class="navbar-link"><a class="list-links" href="https://cms.cleancreditcrew.com/">DASHBOARD</a></li>
       <li class="navbar-link"><a class="list-links" href="{{asset('message/inbox')}}">MAIL</a></li>
       <li class="navbar-link"><a class="list-links" href="#">CREDIT PROFILE</a></li>
       <li class="navbar-link"><a class="list-links" href="#">SETTINGS</a></li>
@@ -143,4 +143,3 @@
     </div>
   </nav>
 </div>
-
