@@ -108,7 +108,7 @@
                 $role  = App\Role::where('id', $value->id)->first();
                 ?>
                 <td>
-                {{$role->name}}
+                {{$role->name ?? ''}}
                 </td>
                 <td><span class="chip green lighten-5">
                     <span class="green-text">Active</span>
