@@ -141,6 +141,7 @@ return [
          */
         Illuminate\Auth\AuthServiceProvider::class,
         App\Providers\PermissionsServiceProvider::class,
+        Mckenziearts\Notify\LaravelNotifyServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
         Illuminate\Cache\CacheServiceProvider::class,
