@@ -12,11 +12,9 @@ use App\Http\Controllers\LanguageController;
  */
 Auth::routes();
     // Dashboard Route
-// Route::get('/', 'AuthenticationController@userLogin');
-Route::get('/', 'DashboardController@dashboardModern');
-Route::get('/modern', 'DashboardController@dashboardModern');
-Route::get('/ecommerce', 'DashboardController@dashboardEcommerce');
-Route::get('/analytics', 'DashboardController@dashboardAnalytics');
+Route::get('logout-user', ['as' => 'logout.user', 'uses' => 'Auth\LoginController@logout']);
+Route::group(['middleware' => ['auth']], function () {
+Route::get('/', 'DashboardController@dashboardEcommerce');
 
 // Application Route
 Route::get('/app-email', 'ApplicationController@emailApp');
@@ -56,9 +54,22 @@ Route::get('/media-gallery-page', 'MediaController@mediaGallery');
 Route::get('/media-hover-effects', 'MediaController@hoverEffect');
 
 // User Route
-Route::get('/page-users-list', 'UserController@usersList');
-Route::get('/page-users-view', 'UserController@usersView');
-Route::get('/page-users-edit', 'UserController@usersEdit');
+Route::get('/users-list', 'UserController@usersList');
+Route::get('/users-view', 'UserController@usersView');
+Route::get('/users/edit/{id}', 'UserController@usersEdit');
+Route::get('/user-add', 'UserController@user_form');
+Route::post('/user/add', 'UserController@user_add');
+
+Route::get('/roles-list', 'RolesPermissionController@roles_list');
+Route::get('/roles-add', 'RolesPermissionController@role_form');
+Route::get('/permissions-add', 'RolesPermissionController@permission_form');
+Route::post('/add-role', 'RolesPermissionController@role_add');
+Route::post('/add-permissions', 'RolesPermissionController@permission_add');
+Route::get('/roles/edit/{id}', 'RolesPermissionController@role_edit');
+Route::get('/permissions/edit/{id}', 'RolesPermissionController@permission_edit');
+Route::post('/permissions/update/{id}', 'RolesPermissionController@permission_add');
+Route::post('/roles/update/{id}', 'RolesPermissionController@role_add');
+Route::get('/permissions-list', 'RolesPermissionController@permissions_list');
 
 // Authentication Route
 Route::get('/user-login', 'AuthenticationController@userLogin');
@@ -151,8 +162,28 @@ Route::get('/charts-sparklines', 'ChartController@sparklines');
 // locale route
 Route::get('lang/{locale}',[LanguageController::class, 'swap']);
 
+ });
 
-// Identity IQ routes
-Route::get('/client-register', 'ClientController@create');
-Route::post('/client-personal-info', 'ClientController@injectPersonalInfo');
-Route::post('/client-billing-info', 'ClientController@injectBillingInfo');
+
+ //mail modules route
+
+ //inbox
+ Route::get('message/inbox',   'Messages\InboxController@index');
+ Route::delete('/deleteAll',   'Messages\InboxController@deleteALl');
+ 
+ 
+ //sent mail
+ Route::get('message/sentMessage','Messages\SentMessageController@index');
+ Route::post('/sendMessage',   'Messages\InboxController@insert');
+ Route::delete('/deleteSent',   'Messages\SentMessageController@DeleteSent');
+
+ //trash
+ Route::get('message/trash',     'Messages\TrashController@trash');
+ Route::delete('/deleteTrash',   'Messages\TrashController@deleteTrash');
+ //import star
+//star
+ Route::get('message/Star','Messages\StarController@index');
+ Route::delete('message/Star',   'Message\StarController@deleteStar');
+ Route::resource('/updateStar','Message\StarController@UpdateStar');
+ //important
+Route::get('message/important','Messages\ImportantController@index');
