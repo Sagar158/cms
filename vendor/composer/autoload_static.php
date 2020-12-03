@@ -51,7 +51,6 @@ class ComposerStaticInit2e0e4407496bf8fced0e70395e69e7be
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
-        '38ea50801e981fa2297115e1c44a148b' => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src/helpers.php',
         'd21d43db5f6e840ee7b10744ec7fdf66' => __DIR__ . '/../..' . '/app/Helpers/helpers.php',
     );
 
@@ -138,7 +137,6 @@ class ComposerStaticInit2e0e4407496bf8fced0e70395e69e7be
         'M' => 
         array (
             'Monolog\\' => 8,
-            'Mckenziearts\\Notify\\' => 20,
         ),
         'L' => 
         array (
@@ -416,10 +414,6 @@ class ComposerStaticInit2e0e4407496bf8fced0e70395e69e7be
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Mckenziearts\\Notify\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src',
-        ),
         'League\\OAuth2\\Server\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/oauth2-server/src',
@@ -626,7 +620,6 @@ class ComposerStaticInit2e0e4407496bf8fced0e70395e69e7be
         'App\\Http\\Controllers\\Messages\\TrashController' => __DIR__ . '/../..' . '/app/Http/Controllers/Messages/TrashController.php',
         'App\\Http\\Controllers\\MiscController' => __DIR__ . '/../..' . '/app/Http/Controllers/MiscController.php',
         'App\\Http\\Controllers\\PageController' => __DIR__ . '/../..' . '/app/Http/Controllers/PageController.php',
-        'App\\Http\\Controllers\\RolesPermissionController' => __DIR__ . '/../..' . '/app/Http/Controllers/RolesPermissionController.php',
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Http\\Controllers\\UserProfileController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserProfileController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -643,13 +636,11 @@ class ComposerStaticInit2e0e4407496bf8fced0e70395e69e7be
         'App\\Mail\\SendMail' => __DIR__ . '/../..' . '/app/Mail/SendMail.php',
         'App\\Message' => __DIR__ . '/../..' . '/app/Message.php',
         'App\\Permission' => __DIR__ . '/../..' . '/app/Permission.php',
-        'App\\Permissions\\HasPermissionsTrait' => __DIR__ . '/../..' . '/app/Permissions/HasPermissionsTrait.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\MenuServiceProvider' => __DIR__ . '/../..' . '/app/Providers/MenuServiceProvider.php',
-        'App\\Providers\\PermissionsServiceProvider' => __DIR__ . '/../..' . '/app/Providers/PermissionsServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\Role' => __DIR__ . '/../..' . '/app/Role.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
@@ -3102,12 +3093,6 @@ class ComposerStaticInit2e0e4407496bf8fced0e70395e69e7be
         'League\\OAuth2\\Server\\ResponseTypes\\BearerTokenResponse' => __DIR__ . '/..' . '/league/oauth2-server/src/ResponseTypes/BearerTokenResponse.php',
         'League\\OAuth2\\Server\\ResponseTypes\\RedirectResponse' => __DIR__ . '/..' . '/league/oauth2-server/src/ResponseTypes/RedirectResponse.php',
         'League\\OAuth2\\Server\\ResponseTypes\\ResponseTypeInterface' => __DIR__ . '/..' . '/league/oauth2-server/src/ResponseTypes/ResponseTypeInterface.php',
-        'Mckenziearts\\Notify\\Exceptions\\MissingPresetNotificationException' => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src/Exceptions/MissingPresetNotificationException.php',
-        'Mckenziearts\\Notify\\Facades\\LaravelNotify' => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src/Facades/LaravelNotify.php',
-        'Mckenziearts\\Notify\\LaravelNotify' => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src/LaravelNotify.php',
-        'Mckenziearts\\Notify\\LaravelNotifyServiceProvider' => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src/LaravelNotifyServiceProvider.php',
-        'Mckenziearts\\Notify\\NotifyComponent' => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src/NotifyComponent.php',
-        'Mckenziearts\\Notify\\Storage\\Session' => __DIR__ . '/..' . '/mckenziearts/laravel-notify/src/Storage/Session.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV5.php',
         'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV6' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV6.php',

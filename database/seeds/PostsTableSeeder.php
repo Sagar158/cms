@@ -13,7 +13,7 @@ class PostsTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Super Admin',
-            'email' => 'khawar1@hwryk.com',
+            'email' => 'khawar@hwryk.com',
             'username' => 'khawar@hwryk.com',
             'email_verified_at' => now(),
             'password' => Hash::make('admin'),
