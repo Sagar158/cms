@@ -118,12 +118,6 @@
           </a>
         </li>
         <li>
-          <a class="grey-text text-darken-1" href="{{asset('app-chat')}}">
-            <i class="material-icons">chat_bubble_outline</i>
-            Chat
-          </a>
-        </li>
-        <li>
           <a class="grey-text text-darken-1" href="{{asset('page-faq')}}">
             <i class="material-icons">help_outline</i>
             Help
