@@ -205,7 +205,7 @@
           </div>
         </div>
         <div class="file-field input-field" >
-          <div class="btn">
+          <div class="btn" style="float: inherit;">
             <span>Attach File</span>
             <input type="file" name="attachment">
           </div>
